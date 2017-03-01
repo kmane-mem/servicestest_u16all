@@ -1,12 +1,9 @@
 language: node_js
 
-#node_js:
- # - 0.12
-  
 services:
   - cassandra 
   - couchdb 
- # - elasticsearch 
+  - elasticsearch 
   - memcached 
   - mongodb 
   - mysql 
@@ -23,7 +20,7 @@ build:
   ci:
     - node --version
     
-  #pre_ci_boot:
-  #  image_name: drydock/u16all
-  #  image_tag: master
-  #  pull: true  
+  pre_ci_boot:
+    image_name: drydock/u16all
+    image_tag: master
+    pull: true  
