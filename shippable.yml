@@ -1,4 +1,8 @@
 language: node_js
+
+node_js:
+  - 0.12
+  
 services:
   - cassandra 
   - couchdb 
@@ -19,6 +23,6 @@ build:
     - node --version
     
   pre_ci_boot:
-    image_name: drydock/u16all
+    image_name: drydock/u16nodall
     image_tag: master
     pull: true  
