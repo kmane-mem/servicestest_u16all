@@ -23,6 +23,6 @@ build:
     - node --version
     
   pre_ci_boot:
-    image_name: drydock/u16all
+    image_name: drydock/u14all
     image_tag: master
     pull: true  
