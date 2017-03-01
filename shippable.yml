@@ -1,23 +1,23 @@
-language: node_js
+#language: node_js
 
-node_js:
-  - 0.12
+#node_js:
+ # - 0.12
   
 services:
-  - cassandra 
-  - couchdb 
-  #- elasticsearch 
-  - memcached 
-  - mongodb 
-  - mysql 
-  - neo4j 
-  #- postgres 
-  - rabbitmq 
-  - redis 
-  - rethinkdb 
-  - riak 
- # - selenium 
-  - sqllite 
+  #- cassandra 
+  #- couchdb 
+  - elasticsearch 
+  #- memcached 
+  #- mongodb 
+  #- mysql 
+  #- neo4j 
+  - postgres 
+  #- rabbitmq 
+  #- redis 
+  #- rethinkdb 
+  #- riak 
+  - selenium 
+  #- sqllite 
 build:
   ci:
     - node --version
