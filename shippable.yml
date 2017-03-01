@@ -11,19 +11,19 @@ services:
   - mongodb 
   - mysql 
   - neo4j 
-  #- postgres 
+  - postgres 
   - rabbitmq 
   - redis 
   - rethinkdb 
   - riak 
-  #- selenium 
+  - selenium 
   - sqlite 
   
 build:
   ci:
     - node --version
     
-  pre_ci_boot:
-    image_name: drydock/u14all
-    image_tag: master
-    pull: true  
+  #pre_ci_boot:
+  #  image_name: drydock/u16all
+  #  image_tag: master
+  #  pull: true  
