@@ -1,16 +1,16 @@
 language: node_js
 
 services:
-  - cassandra 
-  - couchdb 
+ # - cassandra 
+ # - couchdb 
   #- elasticsearch 
   - memcached 
   - mongodb 
   - mysql 
   - neo4j 
   - postgres 
-  - rabbitmq 
-  - redis 
+  #- rabbitmq 
+  #- redis 
   - rethinkdb 
   - riak 
   - selenium 
