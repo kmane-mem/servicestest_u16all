@@ -1,11 +1,11 @@
 language: node_js
 
 services:
-  - cassandra 
-  - couchdb 
+ # - cassandra 
+  #- couchdb 
   #- elasticsearch 
-  - memcached 
-  - mongodb 
+  #- memcached 
+  #- mongodb 
   - mysql 
   - neo4j 
   - postgres 
@@ -14,7 +14,7 @@ services:
   - rethinkdb 
   - riak 
   - selenium 
-  - sqlite 
+  #- sqlite 
   
 build:
   ci:
