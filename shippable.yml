@@ -14,7 +14,7 @@ services:
   - rethinkdb 
   - riak 
   - selenium 
-  - sqlite 
+  #- sqlite 
   
 build:
   ci:
